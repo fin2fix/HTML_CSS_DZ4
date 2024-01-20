@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 586px);
+  padding-right: calc(50% - 586px);
+}
+
+.top {
+  padding-bottom: 96px;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 84px;
+  display: flex;
+  gap: 500px;
+}
+
+.header_full_logo {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.header_logo_text {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header_text_color {
+  color: #f25822;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header__grouplinks {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  display: flex;
+  gap: 30px;
+}
+
+.header__link {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#header__home__link {
+  color: #f25822;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.top__content {
+  display: flex;
+  gap: 41px;
+  padding-bottom: 162px;
+}
+
+.top__info__title {
+  width: 522px;
+  margin-bottom: 17px;
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.top__info__text {
+  width: 466px;
+  color: #888;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top__buttons {
+  margin-top: 37px;
+  display: flex;
+  gap: 42px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.button__left {
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  border-style: none;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  cursor: pointer;
+}
+
+.button__right {
+  color: #aaa;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  border-style: none;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.top__logos {
+  padding-top: 97px;
+  display: flex;
+  gap: 40px;
+}
+
+.logos {
+  cursor: pointer;
+}
